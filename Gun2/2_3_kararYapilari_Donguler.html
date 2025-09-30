@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>1_4_Operatorler_TipDonusumu_input</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>2_3_kararYapilari_Donguler</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7511,76 +7511,69 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=373b90dc">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6fce2446">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Operatorler">Operatorler<a class="anchor-link" href="#Operatorler">¶</a></h1><p><img alt="alt text" src="Operatorler.png"/></p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=991047fd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Aritmatik">Aritmatik<a class="anchor-link" href="#Aritmatik">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=17952954">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">8</span><span class="o">/</span><span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="mi">2</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span>
-
-<span class="c1">#önce parantez içi</span>
-<span class="c1">#çarpma bölme arasında işlem önceliği yok. soldan sağa yapar.</span>
-<span class="c1">#toplama, çıkarma</span>
+<h1 id="Karar-Yap%C4%B1lar%C4%B1-ve-D%C3%B6ng%C3%BCler">Karar Yapıları ve Döngüler<a class="anchor-link" href="#Karar-Yap%C4%B1lar%C4%B1-ve-D%C3%B6ng%C3%BCler">¶</a></h1><h2 id="Karar-Yap%C4%B1lar%C4%B1">Karar Yapıları<a class="anchor-link" href="#Karar-Yap%C4%B1lar%C4%B1">¶</a></h2><ol>
+<li>if-elif-elif....elif-else</li>
+</ol>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">şart</span><span class="p">:</span>
+    <span class="c1">#şart True olursa çaloşacak kodlar.</span>
+<span class="k">elif</span> <span class="n">şart2</span><span class="p">:</span>
+    <span class="c1">#şart2 True ise</span>
+<span class="k">elif</span> <span class="n">şart3</span><span class="p">:</span>
+    <span class="c1">#şart3 True ise</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c1">#hiç bir şart True üretmezse</span>
+</pre></div>
+<ol start="2">
+<li>ternary: tek satırda kontro yapmamızı sağlar.</li>
+</ol>
+<div class="highlight"><pre><span></span><span class="n">şartTrueUretirse</span> <span class="k">if</span> <span class="n">şart</span> <span class="k">else</span> <span class="n">şartFalseUretirse</span>
 </pre></div>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>15.0</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a04543d2">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=31d7b506">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
-<span class="c1"># haftalık çalıpşma saati min 40 saat olsun</span>
-<span class="c1"># mesai ücreti saatlik ücretin 1.5 katı olsun.</span>
-<span class="c1"># çalışma süresi girildiğinde mesai hücretini hesaplayalım</span>
-<span class="c1"># hakediş</span>
-<span class="n">calismaSaati</span> <span class="o">=</span> <span class="mi">60</span>
-<span class="n">saatlikUcret</span> <span class="o">=</span> <span class="mf">256.49</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#örn:</span>
+<span class="c1">#Dışarın sayısal not isteyelim. harf karşılığını üreterlim.</span>
+<span class="n">notunuz</span> <span class="o">=</span><span class="s2">"50"</span> <span class="c1">#input("Notunuzu giriniz: ") #str</span>
+<span class="n">notunuz</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">notunuz</span><span class="p">)</span>
+<span class="c1">#</span>
+<span class="n">harfNotu</span> <span class="o">=</span> <span class="s2">""</span>
 
-<span class="n">hakedis</span> <span class="o">=</span> <span class="mi">40</span> <span class="o">*</span> <span class="n">saatlikUcret</span> <span class="o">+</span> <span class="p">(</span><span class="n">calismaSaati</span> <span class="o">-</span> <span class="mi">40</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">saatlikUcret</span><span class="o">*</span><span class="mf">1.5</span><span class="p">)</span>
+<span class="k">if</span> <span class="mi">0</span><span class="o">&lt;=</span><span class="n">notunuz</span><span class="o">&lt;=</span><span class="mi">100</span><span class="p">:</span> <span class="c1">#notunuz &gt;= 0 and notunuz&lt;=100:</span>
+    <span class="c1">#pass #pass kodlar yer tutucudur. buraya şimdilik kod yazmıyoruz hata verme demiş oluyoruz.</span>
+    <span class="c1">#... #pass ile aynı anlama gelir.</span>
+    <span class="c1">#</span>
+    <span class="k">if</span> <span class="n">notunuz</span><span class="o">&gt;=</span><span class="mi">85</span><span class="p">:</span>
+        <span class="n">harfNotu</span> <span class="o">=</span> <span class="s2">"A"</span>
+    <span class="k">elif</span> <span class="n">notunuz</span><span class="o">&gt;=</span><span class="mi">70</span><span class="p">:</span>
+        <span class="n">harfNotu</span> <span class="o">=</span> <span class="s2">"B"</span>
+    <span class="k">elif</span> <span class="n">notunuz</span><span class="o">&gt;=</span><span class="mi">50</span><span class="p">:</span>
+        <span class="n">harfNotu</span> <span class="o">=</span> <span class="s2">"C"</span>
+    <span class="k">elif</span> <span class="n">notunuz</span><span class="o">&gt;=</span><span class="mi">30</span><span class="p">:</span>
+        <span class="n">harfNotu</span> <span class="o">=</span> <span class="s2">"D"</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">harfNotu</span> <span class="o">=</span> <span class="s2">"F"</span>
+    <span class="c1">#------------------</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Notunuz </span><span class="si">{</span><span class="n">notunuz</span><span class="si">}</span><span class="s2"> harf karşılığı </span><span class="si">{</span><span class="n">harfNotu</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">"Notunuz 0-100 arasında olması gerekir."</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Ücret : "</span><span class="p">,</span> <span class="n">hakedis</span><span class="p">)</span>
+<span class="c1">#---</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Programın sonuna gelindi."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7593,61 +7586,93 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Ücret :  17954.300000000003
+<pre>Notunuz 50 harf karşılığı C
+Programın sonuna gelindi.
 </pre>
 </div>
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=32e260e6">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=fb3e6d25">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#ternary</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">6</span>
+
+<span class="s2">"Çift Sayıdır"</span> <span class="k">if</span> <span class="n">x</span><span class="o">%</span><span class="k">2</span>==0 else "Tek Sayıdır"
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>'Çift Sayıdır'</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=9347ca02">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="D%C3%B6ng%C3%BCler">Döngüler<a class="anchor-link" href="#D%C3%B6ng%C3%BCler">¶</a></h2><ol>
+<li>for: iterasyon yapılabilecek nesnelerin elemanlarına tek tek ulaşmamızı sağlar.</li>
+</ol>
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">eleman</span> <span class="ow">in</span> <span class="n">grup</span><span class="p">:</span>
+    <span class="c1">#elemanlara tek tek ulaşırız.</span>
+</pre></div>
+<ol start="2">
+<li>while-else</li>
+</ol>
+<div class="highlight"><pre><span></span><span class="k">while</span> <span class="n">şart</span><span class="p">:</span>
+    <span class="c1">#şart True olduğu sürece döngü çalışır.</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="c1">#şart False olduğunda devreye girer.</span>
+</pre></div>
+<p><strong>Not:</strong></p>
 <ul>
-<li>$h^2 = x^2 + y^2$</li>
-<li>$h = \sqrt{x^2 + y^2}$</li>
+<li>her döngüde <code>break</code> ile döngüden çıkılabilir. <code>continue</code> ile bir sonraki iterasyona atlar.</li>
 </ul>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ad2d8ebb">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=32488a89">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="for">for<a class="anchor-link" href="#for">¶</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=76dbda3c">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
-<span class="c1">#iki dik kenarı verilen ücgenin hipotenüsünü hesaplayalım</span>
-<span class="c1"># h^2 = x^2 + y^2</span>
-<span class="c1"># h = ?</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">kelime</span> <span class="o">=</span> <span class="s2">"merhaba"</span> <span class="c1">#str containerdır. karakterden oluşur</span>
 
-<span class="sd">"""</span>
-<span class="sd">Bu 3 tırnak yöntemi metin tanımlamak için kullanılıyr. </span>
-<span class="sd">Ancak çok satırlı yorum için de kullanabiliriz</span>
-
-<span class="sd">markdown dilinde aşağıdaki şekilde formulu okunaklı hale getirebilriz.</span>
-<span class="sd">* $h^2 = x^2 + y^2$</span>
-<span class="sd">* $h = \sqrt{x^2 + y^2}$</span>
-<span class="sd">"""</span>
-
-<span class="n">x</span><span class="o">=</span><span class="mi">3</span>
-<span class="n">y</span><span class="o">=</span><span class="mi">4</span>
-
-<span class="c1">#h=?</span>
-<span class="c1">#pow, math.pow, **</span>
-<span class="c1">#h = (x**2 + y**2)**0.5</span>
-
-<span class="c1">#veya math.sqrt ile</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">math</span>
-<span class="n">h</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
-
-<span class="c1">#</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Hipotenüs : "</span><span class="p">,</span> <span class="n">h</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">karakter</span> <span class="ow">in</span> <span class="n">kelime</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">karakter</span><span class="o">.</span><span class="n">upper</span><span class="p">(),</span> <span class="n">end</span><span class="o">=</span><span class="s2">"-"</span><span class="p">)</span> <span class="c1">#her bir karaktere ayrı ayrı erişiriz.</span>
 </pre></div>
 </div>
 </div>
@@ -7660,30 +7685,23 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Hipotenüs :  5.0
-</pre>
+<pre>M-E-R-H-A-B-A-</pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bbc2a9a4">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=44d9cfdd">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
-<span class="c1"># ay olarak yaşı girilen bir çocuğun yıl ve ay olarak yaşını hesaplayalım.</span>
-<span class="c1"># 56 aylık çocuğunuz doğalı 4 yıl 8 ay oldu.</span>
-
-<span class="n">kacAylik</span> <span class="o">=</span> <span class="mi">56</span>
-<span class="n">yil</span> <span class="o">=</span> <span class="n">kacAylik</span> <span class="o">//</span> <span class="mi">12</span> <span class="c1">#// sonucun tam kısmını verir</span>
-<span class="n">ay</span> <span class="o">=</span> <span class="n">kacAylik</span> <span class="o">%</span> <span class="mi">12</span>
-
-<span class="c1">#</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">kacAylik</span><span class="p">,</span><span class="s2">"aylık olan çocuğunuz doğalı"</span><span class="p">,</span><span class="n">yil</span><span class="p">,</span><span class="s2">"yıl ve"</span><span class="p">,</span><span class="n">ay</span><span class="p">,</span><span class="s2">"ay oldu."</span> <span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru: 0-9 arasındaki sayılardan çift olanları görüntüleyelim.</span>
+<span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="n">s</span><span class="o">%</span><span class="k">2</span>==0:
+        <span class="nb">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7696,39 +7714,61 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>56 aylık olan çocuğunuz doğalı 4 yıl ve 8 ay oldu.
+<pre>0
+2
+4
+6
+8
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6cf361d9">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Atama">Atama<a class="anchor-link" href="#Atama">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=a798eaa6">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d7a5cfb9">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#klasik atama</span>
-<span class="n">a</span> <span class="o">=</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#zincir atama</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#range(start,stop, step) #start ile stop arasında step kadar atlayıp sayılar tutucak.</span>
+<span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span> <span class="c1">#0-10 arasındaki sayıları tutar. bunu bildiğimz bir tipe (liste) çevirebiliriz. for ile içinde gezebilriiz.</span>
 
-<span class="c1">#unpacking (değişken ile değer deseni uyumlu ise değerler değişkene atanır.)</span>
-<span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span>
-
-<span class="c1">#</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">)</span>
+<span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=cff1bb09">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#örn: çarpım tablosu</span>
+<span class="n">kaclar</span><span class="o">=</span><span class="mi">7</span>
+<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">x</span><span class="o">==</span><span class="mi">7</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">x</span><span class="si">}</span><span class="s2"> X </span><span class="si">{</span><span class="n">y</span><span class="si">}</span><span class="s2"> = </span><span class="si">{</span><span class="n">x</span><span class="o">*</span><span class="n">y</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="c1">#dıştaki forıniçinde içteki forun dışında.</span>
+    <span class="c1">#print("-"*50)</span>
 </pre></div>
 </div>
 </div>
@@ -7741,29 +7781,49 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>1 2 3
+<pre>7 X 1 = 7
+7 X 2 = 14
+7 X 3 = 21
+7 X 4 = 28
+7 X 5 = 35
+7 X 6 = 42
+7 X 7 = 49
+7 X 8 = 56
+7 X 9 = 63
+7 X 10 = 70
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=5798b399">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3c481864">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#örn:</span>
+<span class="c1">#1-100 arasındaki sayılardan 7'ye tam bölünenlerin, adedi, toplamını, enbüyük, en küçük, ortalamasını getirelim.</span>
+<span class="n">tamBolunenler</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#boş liste</span>
 
-<span class="c1">#kümülatif</span>
-<span class="c1">#x = x+3 #x'in önceki değerine 3 ekledik. ve tekrar x'e atadık</span>
-<span class="n">x</span> <span class="o">+=</span> <span class="mi">3</span> <span class="c1">#aynı sonucu verir.</span>
+<span class="c1">#</span>
+<span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">s</span><span class="o">%</span><span class="k">7</span>==0:
+        <span class="n">tamBolunenler</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">s</span><span class="p">)</span> <span class="c1">#listeye eleman ekledik.</span>
 
-<span class="c1">#önce sağ taraf hesaplanır sonra sol taraf</span>
+<span class="c1">#</span>
+<span class="n">tamBolunenler</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="c1">#max, min, len, sum</span>
+<span class="nb">max</span><span class="p">(</span><span class="n">tamBolunenler</span><span class="p">)</span>
+<span class="nb">min</span><span class="p">(</span><span class="n">tamBolunenler</span><span class="p">)</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">tamBolunenler</span><span class="p">)</span> <span class="c1">#eleman sayısı</span>
+<span class="nb">sum</span><span class="p">(</span><span class="n">tamBolunenler</span><span class="p">)</span>
+
+<span class="c1">#avg yok.</span>
+<span class="nb">sum</span><span class="p">(</span><span class="n">tamBolunenler</span><span class="p">)</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">tamBolunenler</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7773,326 +7833,26 @@ a.anchor-link {
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>5
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=bb975aaf">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
-<span class="n">a</span> <span class="o">=</span> <span class="s2">"Ali"</span>
-<span class="n">b</span> <span class="o">=</span> <span class="s2">"Veli"</span>
-
-<span class="c1">#a ile b'nin değerini yer değiştirelim.</span>
-<span class="c1">#b="Veli" a="Ali"</span>
-
-<span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span> <span class="p">,</span> <span class="n">a</span> <span class="c1">#önce sağ sonra sola atanır, desen de aynı olduğu için değerler atanır</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="c1">#Veli Ali olmalı</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Veli Ali
-</pre>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>52.5</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=f170ddd8">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=449a73dc">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma">Karşılaştırma<a class="anchor-link" href="#Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma">¶</a></h2><ul>
-<li>True /False döner.</li>
-</ul>
+<h3 id="list-comprehension">list comprehension<a class="anchor-link" href="#list-comprehension">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7ee04968">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">6</span>
-
-<span class="c1">#x çift mi?</span>
-<span class="n">x</span><span class="o">%</span><span class="k">2</span> == 0 #2'ye bölümünden kalan 0 mı?
-
-<span class="c1">#</span>
-<span class="c1">#print(x%2 == 0) #içindeki hesapanır sonuç yazılır.</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>True</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=f1d9cf76">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">degisken</span> <span class="o">=</span> <span class="s2">"yedi"</span>
-
-<span class="nb">type</span><span class="p">(</span><span class="n">degisken</span><span class="p">)</span> <span class="o">==</span> <span class="nb">int</span> <span class="c1">#tipi int mi?</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>False</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=10526255">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Mant%C4%B1ksal">Mantıksal<a class="anchor-link" href="#Mant%C4%B1ksal">¶</a></h3><p>Sonuç True / False</p>
-<ul>
-<li><code>and</code> her iki tarafındaki mantıksal durum True ise sonuç True</li>
-<li><code>or</code> herhangi bir taraf True ise sonuç True</li>
-<li><code>not(şart)</code> Verilen mantıksal şartın tersini üretir.</li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=8fc6b1da">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">kadi</span><span class="o">=</span><span class="s2">"admin"</span>
-<span class="n">ksifre</span><span class="o">=</span><span class="s2">"1234"</span>
-
-<span class="n">kadi</span> <span class="o">==</span> <span class="s2">"admin"</span> <span class="ow">and</span> <span class="n">ksifre</span> <span class="o">==</span><span class="s2">"1234"</span> <span class="c1">#giriş başarılı ise True üretir.</span>
-
-<span class="c1">#</span>
-<span class="c1">#not ile aynı sonucu alalım.</span>
-<span class="c1">#not(True) #False</span>
-
-<span class="ow">not</span><span class="p">(</span><span class="n">kadi</span> <span class="o">!=</span> <span class="s2">"admin"</span> <span class="ow">or</span> <span class="n">ksifre</span> <span class="o">!=</span><span class="s2">"1234"</span><span class="p">)</span> <span class="c1">#anlaşılması zor.</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>True</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cc26aba1">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="%C3%9Cyelik">Üyelik<a class="anchor-link" href="#%C3%9Cyelik">¶</a></h2><ul>
-<li><code>in</code>  : grup içinde var mı?</li>
-<li><code>not in</code></li>
-</ul>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=e38c6b44">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [67]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="s2">"m"</span> <span class="ow">in</span> <span class="s2">"merhaba"</span> <span class="c1">#str container</span>
-
-<span class="c1">#</span>
-<span class="mi">100</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span> <span class="c1">#100 bu listede var mı?</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>False</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=9575ed7e">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
-<span class="c1">#sqrt fonksiyonu gömülü nesneler arasında var mı?</span>
-<span class="c1">#__builtins__, dir, in</span>
-<span class="nb">type</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">))</span> <span class="c1">#list</span>
-
-<span class="c1">#</span>
-<span class="nb">type</span><span class="p">(</span><span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span> <span class="c1">#str</span>
-
-<span class="c1">#</span>
-<span class="s2">"pow"</span> <span class="ow">in</span> <span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">)</span> <span class="c1">#True</span>
-<span class="s2">"sqrt"</span> <span class="ow">in</span> <span class="nb">dir</span><span class="p">(</span><span class="n">__builtins__</span><span class="p">)</span> <span class="c1">#False</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>False</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=98e2cc94">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Tip-D%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BC">Tip Dönüşümü<a class="anchor-link" href="#Tip-D%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BC">¶</a></h2><p><img alt="alt text" src="TipDonusu.png"/></p>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ede5636a">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span> <span class="c1">#int + int</span>
-
-<span class="s2">"Bir"</span> <span class="o">+</span> <span class="s2">"Kişi"</span> <span class="c1">#str + str</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'BirKişi'</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=ef168f87">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="mi">1</span> <span class="o">+</span> <span class="s2">"kişi"</span> <span class="c1">#str ve int arasında + ile ne yapacağımız belli değil.</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg" style="color: rgb(98,98,98)">1</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">+</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">"</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">kişi</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">"</span> <span style="color: rgb(95,135,135)">#str ve int arasında + ile ne yapacağımız belli değil.</span>
-
-<span class="ansi-red-intense-fg ansi-bold">TypeError</span>: unsupported operand type(s) for +: 'int' and 'str'</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=0a365ddc">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=be4de8ed">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8100,8 +7860,10 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#implicit</span>
-<span class="mi">1</span> <span class="o">+</span> <span class="mf">1.23</span> <span class="c1">#int + float = float</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#list, set vs. içerisinde for, if yazabiliriz. geriye mesela list tipi döner.</span>
+<span class="n">tamBolunenlerinKaresi</span> <span class="o">=</span> <span class="p">[</span><span class="n">s</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span> <span class="k">if</span> <span class="n">s</span><span class="o">%</span><span class="k">7</span>==0] #açık fordan daha performanslı çalışır.
+
+<span class="n">tamBolunenlerinKaresi</span>
 </pre></div>
 </div>
 </div>
@@ -8114,103 +7876,45 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
 <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>2.23</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=434f17e7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#explicit</span>
-<span class="nb">str</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="s2">" kişi"</span> <span class="c1">#str + str = str dönsün str(1) ile tip dönüşümü</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'1 kişi'</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=860b15b7">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#containerlarda tip dönüşümü</span>
-<span class="c1">#diğer containerin elemanı haline gelir.</span>
-<span class="n">m</span> <span class="o">=</span> <span class="s2">"KALABALIK"</span> <span class="c1">#str container</span>
-
-<span class="c1">#</span>
-<span class="nb">list</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>  <span class="c1">#list tipine çevirdilk</span>
-<span class="nb">tuple</span><span class="p">(</span><span class="n">m</span><span class="p">)</span> <span class="c1">#tuple</span>
-<span class="nb">set</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>   <span class="c1">#set</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>{'A', 'B', 'I', 'K', 'L'}</pre>
+<pre>[49, 196, 441, 784, 1225, 1764, 2401, 3136, 3969, 4900, 5929, 7056, 8281, 9604]</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=601a3426">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=aa7156f7">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Kullan%C4%B1c%C4%B1dan-Bilgi-Almak-input-kullan%C4%B1r%C4%B1z">Kullanıcıdan Bilgi Almak <code>input</code> kullanırız<a class="anchor-link" href="#Kullan%C4%B1c%C4%B1dan-Bilgi-Almak-input-kullan%C4%B1r%C4%B1z">¶</a></h2><ul>
-<li>Gelen değer str tipindedir.</li>
-</ul>
+<h3 id="while-else">while-else<a class="anchor-link" href="#while-else">¶</a></h3>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=3fe809c7">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d17ad5be">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">s1</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"1. Sayıyı giriniz: "</span><span class="p">)</span>
-<span class="n">s2</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"2. Sayıyı giriniz: "</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">sayac</span> <span class="o">=</span> <span class="mi">0</span>
 
-<span class="c1">#</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">s1</span> <span class="o">+</span> <span class="n">s2</span><span class="p">)</span> <span class="c1">#1020 girişler str tipinden değerler birleşti.</span>
+<span class="k">while</span> <span class="n">sayac</span> <span class="o">&lt;</span><span class="mi">10</span><span class="p">:</span>
+    <span class="n">sayac</span><span class="o">+=</span><span class="mi">1</span> <span class="c1">#sayac = sayac + 1</span>
 
-<span class="c1">#tip dönüşümü</span>
-<span class="n">s1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">s1</span><span class="p">)</span>
-<span class="n">s2</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">s2</span><span class="p">)</span>
+    <span class="c1">#----------</span>
+    <span class="k">if</span> <span class="n">sayac</span><span class="o">==</span><span class="mi">7</span><span class="p">:</span>
+        <span class="k">break</span> <span class="c1">#döngüden çıkılır</span>
+    <span class="k">elif</span> <span class="n">sayac</span><span class="o">%</span><span class="k">2</span>==0:
+        <span class="k">continue</span> <span class="c1">#sonraki iterasyona atla</span>
+    <span class="c1">#----------</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">s1</span> <span class="o">+</span> <span class="n">s2</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">sayac</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"şarta  uymayan durumla karşılaşıldı </span><span class="si">{</span><span class="n">sayac</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span> <span class="c1">#breakten dolayı tetiklenmez.</span>
 </pre></div>
 </div>
 </div>
@@ -8223,25 +7927,15 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>1020
-30.0
+<pre>1
+3
+5
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=c756c8cc">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="De%C4%9Fi%C5%9Fkeni-Memoryden-Kald%C4%B1rmak">Değişkeni Memoryden Kaldırmak<a class="anchor-link" href="#De%C4%9Fi%C5%9Fkeni-Memoryden-Kald%C4%B1rmak">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=d488089a">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=331ef70f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8249,9 +7943,26 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">100</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#örn:</span>
+<span class="c1">#kullanıcı adı ve şifre isteyeki</span>
+<span class="n">kadi</span> <span class="o">=</span> <span class="n">ksifre</span> <span class="o">=</span> <span class="s2">""</span> <span class="c1">#zincir</span>
+<span class="n">denemeHakki</span> <span class="o">=</span> <span class="mi">3</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span>
+<span class="c1">#</span>
+<span class="k">while</span> <span class="ow">not</span><span class="p">(</span><span class="n">kadi</span><span class="o">==</span><span class="s2">"admin"</span> <span class="ow">and</span> <span class="n">ksifre</span><span class="o">==</span><span class="s2">"123"</span><span class="p">):</span>
+
+    <span class="c1">#hakkı bittiyse döngüden</span>
+    <span class="k">if</span> <span class="n">denemeHakki</span><span class="o">&lt;=</span><span class="mi">0</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">"deneme hakkınız bitti!"</span><span class="p">)</span>
+        <span class="k">break</span>
+
+    <span class="n">kadi</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Kullanıcı adını giriniz: "</span><span class="p">)</span>
+    <span class="n">ksifre</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Şifrenizi giriniz:"</span><span class="p">)</span>
+    
+    <span class="c1">#</span>
+    <span class="n">denemeHakki</span> <span class="o">-=</span><span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Hoş geldiniz </span><span class="si">{</span><span class="n">kadi</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8264,13 +7975,13 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>100
+<pre>Hoş geldiniz admin
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7a569f70">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=678777e2">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -8278,9 +7989,12 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">del</span> <span class="n">a</span> <span class="c1">#a değişkeni siliniyor.</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="c1">#a değişkeni artık yok.</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
+<span class="c1">#al321i.u31c!?an@mail.com</span>
+<span class="c1">#bozuk karakterleri temizleyip kullanıcı adını ali.ucan şeklinde getirelim.</span>
+<span class="n">m</span> <span class="o">=</span> <span class="s2">"metin"</span>
+<span class="n">m</span><span class="o">+=</span><span class="s1">'x'</span> <span class="c1">#mevcut metne karakteri ekler.</span>
+<span class="n">m</span>
 </pre></div>
 </div>
 </div>
@@ -8290,17 +8004,72 @@ Cell <span class="ansi-green-intense-fg ansi-bold">In[70], line 1</span>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
-Cell <span class="ansi-green-intense-fg ansi-bold">In[56], line 1</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">del</span> <span class="ansi-yellow-bg">a</span> <span style="color: rgb(95,135,135)">#a değişkeni siliniyor.</span>
-<span class="ansi-green-fg">      3</span> <span style="color: rgb(0,135,0)">print</span>(a)
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>'metinx'</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=899018b7">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#soru:</span>
+<span class="sd">'''</span>
+<span class="sd">    - Bilgisayar rastgele bir sayı tutsun (1-10 arasında)</span>
+<span class="sd">    - bu sayıyı tahmin etmeye çalışalım</span>
+<span class="sd">    - yukarı aşağı diye bizi yönlendirsin.</span>
+<span class="sd">    - kaç denemede bulundu, tutulan sayı nedir sonunda öğrenelim.</span>
+<span class="sd">    - max deneme sayısı da verilebilir. max deneme sayısı aralıktan daha küçük olmalı. 1-10 arasında 9 hak olabilir.</span>
+<span class="sd">'''</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=394ca25a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
 
-<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'a' is not defined</pre>
+<span class="c1">#</span>
+<span class="nb">dir</span><span class="p">(</span><span class="n">random</span><span class="p">)</span>
+
+<span class="c1">#</span>
+<span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">)</span> <span class="c1">#1-10 arasında rastgele</span>
+<span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="c1">#0-1 arasında rastgele</span>
+
+<span class="c1">#</span>
+<span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span> <span class="c1">#listeyi rastgele karıştırır.</span>
+<span class="n">lst</span>
+
+<span class="c1">#</span>
+<span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span> <span class="c1">#listeden rastgele eleman seçer</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[ ]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>3</pre>
 </div>
 </div>
 </div>
