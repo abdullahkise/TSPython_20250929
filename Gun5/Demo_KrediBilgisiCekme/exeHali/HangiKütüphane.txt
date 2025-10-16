@@ -1,0 +1,4 @@
+
+► Bunları terminalden çalıştırıyoruz. py dosyası exce haline gelir.
+pip install pyinstaller
+pyinstaller --onefile KrediBisi.py
